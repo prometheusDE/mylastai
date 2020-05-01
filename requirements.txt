@@ -1,0 +1,7 @@
+# Add repository for nvidia dali
+--extra-index-url https://developer.download.nvidia.com/compute/redist/cuda/10.0
+# Install packages
+nvidia-dali==0.21.0
+nvidia-dali-tf-plugin
+tensorflow==2.1.0
+matplotlib==3.2.1
