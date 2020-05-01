@@ -1,7 +1,13 @@
-# Add repository for nvidia dali
+# Add repository for nvidia dali, cuda 10
 --extra-index-url https://developer.download.nvidia.com/compute/redist/cuda/10.0
 # Install packages
 nvidia-dali==0.21.0
-nvidia-dali-tf-plugin
+nvidia-dali-tf-plugin==0.2.0
 tensorflow==2.1.0
 matplotlib==3.2.1
+onnx==1.6.0
+# MXNet Framework with cuda 10
+mxnet-cu101mkl==1.6.0
+numpy==1.18.3
+opencv-python==4.2.0.34
+pillow==7.1.2
