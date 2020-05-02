@@ -25,6 +25,9 @@ setup(name='mylastai',
         'numpy==1.18.3',
         'utils==1.0.1'
       ],
+      dependency_links=[
+        'https://developer.download.nvidia.com/compute/redist/cuda/10.0'
+      ],
       zip_safe=False
       )
 
