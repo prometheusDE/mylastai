@@ -1,14 +1,15 @@
-# Add repository for nvidia dali, cuda 10
---extra-index-url https://developer.download.nvidia.com/compute/redist/cuda/10.0
+# Tensorflow nightly till 2.24 comes out for cuda 11 support
+tf-nightly-gpu
 # Install packages
-nvidia-dali==0.21.0
-nvidia-dali-tf-plugin==0.21.0
-tensorflow==2.1.0
-matplotlib==3.2.1
-onnx==1.6.0
+nvidia-pyindex
+--extra-index-url https://developer.download.nvidia.com/compute/redist nvidia-dali-cuda110
+--extra-index-url https://developer.download.nvidia.com/compute/redist nvidia-dali-tf-plugin-cuda110
+# Other stuff
+matplotlib
+onnx
 # MXNet Framework with cuda 10
-mxnet-cu101mkl==1.6.0
-numpy==1.18.3
-opencv-python==4.2.0.34
-pillow==7.1.2
-utils==1.0.1
+mxnet-cu101mkl
+numpy
+opencv-python
+pillow
+utilss
