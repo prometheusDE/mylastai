@@ -2,13 +2,13 @@
 # Custom package locations
 # ---------------------------------------------------------------------------------
 # Add repository for nvidia dali, cuda 10
---extra-index-url https://developer.download.nvidia.com/compute/redist/cuda/10.0
+--extra-index-url https://developer.download.nvidia.com/compute/redist/
 # ---------------------------------------------------------------------------------
 # Install packages
 # ---------------------------------------------------------------------------------
 # Data I/O
-nvidia-dali==0.21.0
-nvidia-dali-tf-plugin==0.21.0
+nvidia-dali-cuda100
+nvidia-dali-tf-plugin-cuda100
 # ---------------------------------------------------------------------------------
 # Machine Learning Frameworks
 # ---------------------------------------------------------------------------------
@@ -17,7 +17,7 @@ tensorflow==2.1.0
 # Microsoft ONNX
 onnx==1.6.0
 # Apaches MXnet
-mxnet-cu101mkl==1.6.0
+mxnet-cu101mkl==1.5.0
 # ---------------------------------------------------------------------------------
 # Image Processing Frameworks
 # ---------------------------------------------------------------------------------
