@@ -2,14 +2,16 @@
 tf-nightly-gpu
 # Install packages
 nvidia-pyindex
---extra-index-url https://developer.download.nvidia.com/compute/redist nvidia-dali-cuda110
---extra-index-url https://developer.download.nvidia.com/compute/redist nvidia-dali-tf-plugin-cuda110
+--extra-index-url https://developer.download.nvidia.com/compute/redist
+nvidia-dali-cuda110
+--extra-index-url https://developer.download.nvidia.com/compute/redist
+nvidia-dali-tf-plugin-cuda110
 # Other stuff
 matplotlib
 onnx
 # MXNet Framework with cuda 10
-mxnet-cu101mkl
-numpy
+mxnet
+numpy==1.18.5
 opencv-python
 pillow
 utilss
