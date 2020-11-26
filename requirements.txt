@@ -1,5 +1,5 @@
 # Tensorflow nightly till 2.24 comes out for cuda 11 support
-tensorflow
+tensorflow==2.3.1
 # Install packages
 --extra-index-url https://developer.download.nvidia.com/compute/redist
 nvidia-dali-cuda110
