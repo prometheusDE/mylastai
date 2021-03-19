@@ -10,5 +10,5 @@ onnx==1.6.0
 mxnet-cu101mkl==1.6.0
 numpy==1.18.3
 opencv-python==4.2.0.34
-pillow==7.1.2
+pillow==8.1.1
 utils==1.0.1
